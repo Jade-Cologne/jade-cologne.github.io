@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="JCstylepage.css">
+    <title>Jason Colón - Violinist | Contact</title>
+    <meta name="description" content="Get in touch with violinist Jason Colón.">
+</head>
+
+<body>
+
+<header>
+    <h1 class="sitetitle"><a href="JasonColonHomepage.html">Jason Colón - Violinist</a></h1>
+    <nav class="links">
+        <ul>
+            <li><a href="JasonColonHomepage.html">About</a></li>
+            <li><a href="JasonColonExperience.html">Experience</a></li>
+            <li><a href="JasonColonMedia.html">Media</a></li>
+            <li><a href="JasonColonContact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="contact">
+    <div class="contact-content">
+
+        <div class="page-sticky-header contact-header">
+            <h1 class="pagetitle">Get in Touch</h1>
+            <div class="contact-divider"></div>
+        </div>
+
+        <p class="contact-intro">Whether you're looking for a violinist for an ensemble, event performance, lessons, coaching, or even music transcription — I'd love to hear from you.</p>
+
+        <form class="contact-form" action="#" method="post">
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number <span class="optional">(optional)</span></label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="interest">interest</label>
+                <select id="interest"" name="interest" required>
+                    <option value="" disabled selected>Select your interest...</option>
+                    <option value="lessons">Private Lessons</option>
+                    <option value="performance">Performance</option>
+                    <option value="ensemble">Ensemble Coaching</option>
+                    <option value="transcription">Music Transcription</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="How can I help?" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+
+        </form>
+    </div>
+</section>
+
+<a href="https://github.com/Jade-Cologne" class="github-bar">GitHub</a>
+
+<script src="JCscript.js"></script>
+</body>
+</html>
